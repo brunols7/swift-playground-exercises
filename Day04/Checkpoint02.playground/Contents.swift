@@ -8,6 +8,6 @@ carBrands.append("Lamborghini")
 carBrands.append("BMW")
 carBrands.append("Porsche")
 
-print("I have \(carBrands.count) cars in my garage")
+print("I listed \(carBrands.count) car brands")
 var setCarBrands = Set(carBrands)
-print("But I have only \(setCarBrands.count) brands")
+print("But there are only \(setCarBrands.count) unique brands")
